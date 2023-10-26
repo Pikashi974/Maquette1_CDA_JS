@@ -1,0 +1,50 @@
+.img-responsive {
+    width: 10%;
+}
+
+#navbarColor02 {
+    position: relative;
+    right: 0;
+}
+
+.container-fluid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.container-fluid>ul {
+    right: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 80%;
+}
+
+#header {
+    width: 50%;
+    max-height: 100%;
+    right: 1%;
+    position: relative;
+}
+
+#coreButtons {
+    display: grid;
+    grid-template-columns: max-content;
+}
+
+footer {
+    background-color: #000;
+    bottom: 0;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    width: 100%
+}
+
+.btn {
+    background-color: #3459e6;
+    color: white;
+    margin: 1% 12%;
+}
