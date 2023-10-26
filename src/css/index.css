@@ -1,10 +1,28 @@
+body {
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    grid-template-rows: min-content max-content auto;
+    display: grid;
+}
+
 .img-responsive {
-    width: 10%;
+    width: 30%;
+}
+
+.img-header {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 #navbarColor02 {
-    position: relative;
-    right: 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ul.navbar-nav.row-cols-lg-1 {
+    flex-direction: row-reverse;
+
 }
 
 .container-fluid {
@@ -23,10 +41,8 @@ main {
 }
 
 #header {
-    width: 50%;
     max-height: 100%;
-    right: 1%;
-    position: relative;
+    max-width: 75%;
 }
 
 #coreButtons {
@@ -36,15 +52,34 @@ main {
 
 footer {
     background-color: #000;
-    bottom: 0;
-    position: fixed;
     display: grid;
-    grid-template-columns: 10% 90%;
-    width: 100%
+    grid-template-columns: 30% 70%;
+    width: 100%;
 }
 
 .btn {
     background-color: #3459e6;
     color: white;
-    margin: 1% 12%;
+    margin: 1% 2%;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 80%;
+}
+
+#textContent {
+    display: grid;
+    align-items: center;
+}
+
+.blockquote-footer::before {
+    content: "";
+}
+.giant-size{
+    font-size: 7rem;
 }
