@@ -48,6 +48,10 @@ main {
 #coreButtons {
     display: grid;
     grid-template-columns: max-content;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
 }
 
 footer {
@@ -80,6 +84,10 @@ footer {
 .blockquote-footer::before {
     content: "";
 }
-.giant-size{
+
+.giant-size {
     font-size: 7rem;
+}
+a.nav-link.border-0.text-light {
+    text-align: end;
 }
